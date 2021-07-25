@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.strike{
+  text-decoration: line-through;
+}
+
+li {
+  *display:inline; /*IE7*/
+  *zoom:1; /*IE7*/
+  background:blue;
+  color:white;
+  margin-right:10px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
